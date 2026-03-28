@@ -29,7 +29,7 @@ df = df[df["Calories_Burned"] != 0]
 df["Estimated_Days"] = (df["Fat_Percentage"] / df["Calories_Burned"]) * 100
 
 # =========================
-# 🔥 운동 추천 모델 (분류)
+# 운동 추천 모델 (분류)
 # =========================
 
 from sklearn.model_selection import train_test_split
@@ -50,13 +50,12 @@ pred_c = clf.predict(X_test_c)
 print("운동 추천 Accuracy:", accuracy_score(y_test_c, pred_c))
 
 # =========================
-# 🔥 기간 예측 모델 (회귀)
+# 기간 예측 모델 (회귀)
 # =========================
 
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
-# ⭐ 여기만 수정
 X_reg = df.drop(["Estimated_Days", "Workout_Type"], axis=1)
 y_reg = df["Estimated_Days"]
 
@@ -73,7 +72,7 @@ print("MSE:", mean_squared_error(y_test_r, pred_r))
 print("R2:", r2_score(y_test_r, pred_r))
 
 # =========================
-# 🔥 최종 테스트
+# 최종 테스트
 # =========================
 
 sample = X_cls.iloc[[0]]
