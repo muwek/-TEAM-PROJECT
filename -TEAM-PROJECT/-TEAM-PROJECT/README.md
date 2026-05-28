@@ -5,6 +5,8 @@
 - FastAPI 기반 API 제공 예정
 
 # Colab TeamProject_main.ipynb
-- https://colab.research.google.com/drive/1qafBSjUzeVtGbZGO56H0PqJ07wgGzMPy?usp=sharing
+- https://drive.google.com/file/d/1gD7ijCanuQGAi6juCz0V1nglLjG-e-bp/view?usp=sharing
 - 링크가 있다면 모두 사용 가능 ( 뷰어 권환 )
 
+# Website [THE PHYSIQ] Link
+- https://new-dig-98860294.figma.site
