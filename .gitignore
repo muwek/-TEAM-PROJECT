@@ -1,0 +1,19 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/ml/__pycache__/
+backend/app/models/__pycache__/
+backend/app/routes/__pycache__/
+backend/data/model.pkl
+backend/data/user_logs.csv
+*.pyc
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# 환경변수
+.env
+.env.production
+.env.local

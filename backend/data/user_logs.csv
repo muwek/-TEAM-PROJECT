@@ -1,0 +1,6 @@
+age,gender,weight,height,bmi,fat_percentage,workout_type,session_duration,frequency,calories
+25,Male,70.0,1.75,22.9,18.0,Cardio,0.98,3.2,500.0
+25,Male,70.0,1.75,22.9,18.0,Cardio,0.99,3.2,500.0
+20,Female,48.0,1.67,17.21,17.0,Cardio,0.95,3.2,500.4
+20,Female,48.0,1.67,17.21,17.0,Cardio,0.96,3.2,497.3
+20,Female,48.0,1.67,17.21,17.0,Cardio,0.95,3.2,498.1
