@@ -191,7 +191,7 @@ API 문서: **[the-physiq.up.railway.app/docs](https://the-physiq.up.railway.app
 김도현 · 김민성 · 김준영 · 노채영 · 이민용 · 이형균
 
 [![GitHub](https://img.shields.io/badge/GitHub-muwek%2F--TEAM--PROJECT-181717?style=flat-square&logo=github)](https://github.com/muwek/-TEAM-PROJECT)
-[![Colab](https://img.shields.io/badge/Colab-ML%20Notebook-F9AB00?style=flat-square&logo=googlecolab)](https://colab.research.google.com/drive/1qafBSjUzeVtGbZGO56H0PqJ07wgGzMPy?usp=sharing)
+[![Colab](https://img.shields.io/badge/Colab-ML%20Notebook-F9AB00?style=flat-square&logo=googlecolab)](https://drive.google.com/file/d/1gD7ijCanuQGAi6juCz0V1nglLjG-e-bp/view?usp=sharing)
 
 <br/>
 
