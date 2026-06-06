@@ -16,7 +16,7 @@ interface Props {
   error: string | null;
   consentGiven: boolean;
   totalDataCount: number | null;
-  onFieldChange: <K extends string>(key: K, value: number | string) => void;
+  onFieldChange: (key: string, value: number | string) => void;
   onModeChange: (mode: RecommendMode) => void;
   onSubmit: () => void;
 }

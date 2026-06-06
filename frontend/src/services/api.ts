@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 import type {
   RecommendV1Params,
   RecommendV2Params,
