@@ -9,17 +9,11 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# CORS - 프론트엔드(localhost:5173)에서의 요청 허용
+# CORS - 프론트엔드에서의 요청 허용
 app.add_middleware(
-    app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-        "https://team-project-ybdo.vercel.app",
-        "https://thephysiq-ljciujmhn-muwek-s-projects.vercel.app",
-    ],
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
