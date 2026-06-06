@@ -8,7 +8,8 @@ import type {
   RetrainStatus,
 } from "../types";
 
-const BASE = import.meta.env.VITE_API_URL ?? "/api";
+const BASE = import.meta.env.VITE_API_URL
+  ?? "https://the-physiq.up.railway.app/api";
 
 async function post<T>(url: string, body: unknown): Promise<T> {
   const res = await fetch(`${BASE}${url}`, {
