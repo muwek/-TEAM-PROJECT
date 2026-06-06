@@ -29,10 +29,10 @@ export function useRecommend() {
   const [totalDataCount, setTotalDataCount] = useState<number | null>(null);
 
   /** BMI 자동 계산 포함 폼 업데이트 */
-  const updateField = useCallback(
-    <K extends keyof FormState>(key: K, value: FormState[K]) => {
-      setForm((prev) => {
-        const next = { ...prev, [key]: value };
+const updateField = useCallback(
+  (key: string, value: number | string) => {
+    setForm((prev) => {
+      const next = { ...prev, [key]: value };
         if (key === "weight" || key === "height") {
           const w = key === "weight" ? (value as number) : prev.weight;
           const h = key === "height" ? (value as number) : prev.height;
