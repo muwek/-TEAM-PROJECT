@@ -156,7 +156,7 @@ export function HomePage() {
                   {
                     icon: <Code sx={{ fontSize: 32, color: isDark ? "#42a5f5" : "#E67E22" }} />,
                     title: "Google Colab Notebook",
-                    href: "https://colab.research.google.com/drive/1qafBSjUzeVtGbZGO56H0PqJ07wgGzMPy?usp=sharing",
+                    href: "https://drive.google.com/file/d/1gD7ijCanuQGAi6juCz0V1nglLjG-e-bp/view?usp=sharing",
                     label: "View Training Notebook",
                   },
                 ].map((item) => (
